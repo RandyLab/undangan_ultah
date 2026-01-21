@@ -1,37 +1,103 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<link
-			rel="stylesheet"
-			href="src/style.css"
-			type="text/css"
-			media="all"
-		/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Undangan Ulang Tahun</title>
-	</head>
-	<body>
-		<!-- Section Main -->
-		<section class="hero p-5 flex justify-center">
-			<div
-				class="card-ucapan flex justify-center items-center flex-col text-center rounded-md"
-			>
-				<h1
-					class="text-ucapan font-bold text-2xl font-serif text-xl text-gray-500"
-				>
-					Selamat Ulang Tahun
-				</h1>
-				<img
-					src="/orang.jpg"
-					alt="Randy"
-					class="foto-orang rounded-full border-gray-100"
-				/>
-				<h2 class="font-semibold text-gray-600">Randy Andal Bangun</h2>
-			</div>
-		</section>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/style.css" type="text/css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Ulang Tahun</title>
+  </head>
+  <body>
+    <!-- Section Main -->
+    <section class="hero p-5 flex justify-center items-center">
+      <div
+        class="card-ucapan flex justify-center items-center flex-col text-center rounded-md"
+      >
+        <h1
+          class="judul-ucapan font-semibold text-2xl font-serif text-5xl text-gray-100"
+        >
+          Selamat Ulang Tahun
+        </h1>
+        <img
+          src="/orang.jpg"
+          alt="Randy"
+          class="foto-orang rounded-full border-gray-100"
+        />
+        <h2 class="nama-ucapan font-semibold text-3xl text-gray-200">
+          Randy Andal Bangun
+        </h2>
+        <button
+          class="text-2xl text-gray-600 bg-yellow-300 px-3 py-1 mt-5 rounded-md"
+        >
+          <a href="#section-undangan">Lihat Undangan</a>
+        </button>
+      </div>
+    </section>
 
-		<script type="module" src="/src/main.js"></script>
-	</body>
+    <!-- Countdowm -->
+    <div class="counter">
+      <div class="time-box">
+        <span id="days">0</span>
+        <small>Hari</small>
+      </div>
+      <div class="time-box">
+        <span id="hours">0</span>
+        <small>Jam</small>
+      </div>
+      <div class="time-box">
+        <span id="minutes">0</span>
+        <small>Menit</small>
+      </div>
+      <div class="time-box">
+        <span id="seconds">0</span>
+        <small>Detik</small>
+      </div>
+    </div>
+
+    <!-- Section Undangan -->
+    <section id="undangan" class="section-undangan py-4">
+      <div class="undangan-box">
+        <h2 class="md:text-2xl">Undangan Spesial Untuk Anda</h2>
+
+        <p id="section-undangan" class="undangan-text">
+          Dengan penuh rasa syukur dan kebahagiaan, kami mengundang
+          Bapak/Ibu/Saudara/i untuk hadir dalam acara ulang tahun:
+        </p>
+
+        <div class="data-acara">
+          <p><strong>Nama:</strong> Randy Andal Bangun</p>
+          <p><strong>Hari / Tanggal:</strong> Minggu, 8 November 2026</p>
+          <p><strong>Waktu:</strong> 19.00 WITA – Selesai</p>
+          <p><strong>Tempat:</strong> Kediaman Rumah Randy</p>
+        </div>
+
+        <p class="undangan-text">
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda
+          berkenan hadir untuk memberikan doa dan restu.
+        </p>
+        <p class="penutup">Atas kehadirannya kami ucapkan terima kasih 🙏</p>
+      </div>
+    </section>
+
+    <!-- Section Maps -->
+    <section class="section-alamat">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1768987062754!5m2!1sid!2sid!6m8!1m7!1s3aMQOFxkY8u0Zfe6D23wJQ!2m2!1d3.117463927674287!2d98.35775696493114!3f22.923563251957717!4f-13.237583237508119!5f0.7820865974627469"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>

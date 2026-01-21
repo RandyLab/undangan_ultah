@@ -1,24 +1,24 @@
 @import "tailwindcss";
 
 body {
-	margin: 0;
-	place-items: center;
-	min-width: 320px;
-	min-height: 100vh;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 .hero {
-	min-height: 100dvh;
-	width: 100%;
-	background-image: url("/bg-hero.jpg");
-	background-position: center;
-	background-size: cover;
+  min-height: 100dvh;
+  width: 100%;
+  background-image: url("/bg-hero.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .card-ucapan {
-	max-width: 80vw;
-	height: max-content;
-	background: linear-gradient(
+  max-width: 80vw;
+  height: max-content;
+  background: linear-gradient(
     135deg,
     rgba(255, 255, 255, 0.2),
     rgba(255, 255, 255, 0.05)
@@ -30,11 +30,104 @@ body {
   padding: 2rem;
 }
 
-.text-ucapan {
-	
+.judul-ucapan {
+  margin-bottom: 2rem;
+  font-family: "Birthstone", cursive;
+  font-style: normal;
+}
+
+.nama-ucapan {
+  margin-top: 2rem;
 }
 
 .foto-orang {
-	width: 150px;
-	height: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.counter {
+  position: absolute;
+  transform: translateY(-150%);
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.time-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 70px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.time-box span {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  color: #ffeb3b;
+}
+
+.time-box small {
+  font-size: 12px;
+  color: #6d7903;
+}
+
+.section-undangan {
+  height: 100dvh;
+  width: 100%;
+  background: #0f172a; /* gelap elegan */
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.undangan-box {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.undangan-box h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #facc15;
+}
+
+.undangan-text {
+  margin: 15px 0;
+  line-height: 1.7;
+}
+
+.data-acara {
+  margin: 25px 0;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+.data-acara p {
+  margin: 8px 0;
+}
+
+.penutup {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #facc15;
+}
+
+.section-alamat {
+  width: 100vw;
+}
+
+.section-alamat iframe {
+  width: 100%;
 }
