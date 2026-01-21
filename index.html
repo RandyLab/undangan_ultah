@@ -1,103 +1,159 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="src/style.css" type="text/css" media="all" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap"
-      rel="stylesheet"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Undangan Ulang Tahun</title>
-  </head>
-  <body>
-    <!-- Section Main -->
-    <section class="hero p-5 flex justify-center items-center">
-      <div
-        class="card-ucapan flex justify-center items-center flex-col text-center rounded-md"
-      >
-        <h1
-          class="judul-ucapan font-semibold text-2xl font-serif text-5xl text-gray-100"
-        >
-          Selamat Ulang Tahun
-        </h1>
-        <img
-          src="/orang.jpg"
-          alt="Randy"
-          class="foto-orang rounded-full border-gray-100"
-        />
-        <h2 class="nama-ucapan font-semibold text-3xl text-gray-200">
-          Randy Andal Bangun
-        </h2>
-        <button
-          class="text-2xl text-gray-600 bg-yellow-300 px-3 py-1 mt-5 rounded-md"
-        >
-          <a href="#section-undangan">Lihat Undangan</a>
-        </button>
-      </div>
-    </section>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<link
+			rel="stylesheet"
+			href="src/style.css"
+			type="text/css"
+			media="all"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Undangan Ulang Tahun</title>
+	</head>
+	<body>
+		<!-- Section Main -->
+		<section class="hero flex justify-center items-center flex-col">
+			<div
+				class="card-ucapan flex justify-center items-center flex-col text-center rounded-md"
+			>
+				<h1
+					class="judul-ucapan font-semibold font-serif text-4xl text-gray-100 md:text-5xl"
+				>
+					Selamat Ulang Tahun
+				</h1>
+				<img
+					src="/orang.jpg"
+					alt="Randy"
+					class="foto-orang rounded-full border-gray-100"
+				/>
+				<h2
+					class="nama-ucapan font-semibold text-2xl text-gray-200 md:text-3xl"
+				>
+					Randy Andal Bangun
+				</h2>
+				<button
+					class="text-2xl text-gray-800 bg-yellow-300 px-3 py-1 mt-5 rounded-md md:text-3xl"
+				>
+					<a href="#undangan">Lihat Undangan</a>
+				</button>
+			</div>
 
-    <!-- Countdowm -->
-    <div class="counter">
-      <div class="time-box">
-        <span id="days">0</span>
-        <small>Hari</small>
-      </div>
-      <div class="time-box">
-        <span id="hours">0</span>
-        <small>Jam</small>
-      </div>
-      <div class="time-box">
-        <span id="minutes">0</span>
-        <small>Menit</small>
-      </div>
-      <div class="time-box">
-        <span id="seconds">0</span>
-        <small>Detik</small>
-      </div>
-    </div>
+			<!-- Countdowm -->
+			<div class="counter">
+				<div class="time-box">
+					<span id="days">0</span>
+					<small>Hari</small>
+				</div>
+				<div class="time-box">
+					<span id="hours">0</span>
+					<small>Jam</small>
+				</div>
+				<div class="time-box">
+					<span id="minutes">0</span>
+					<small>Menit</small>
+				</div>
+				<div class="time-box">
+					<span id="seconds">0</span>
+					<small>Detik</small>
+				</div>
+			</div>
+		</section>
 
-    <!-- Section Undangan -->
-    <section id="undangan" class="section-undangan py-4">
-      <div class="undangan-box">
-        <h2 class="md:text-2xl">Undangan Spesial Untuk Anda</h2>
+		<!-- Section Undangan -->
+		<section id="undangan" class="section-undangan py-4">
+			<div class="undangan-box max-w-6xl">
+				<h2 class="md:text-5xl text-xl">Undangan Spesial Untuk Anda</h2>
 
-        <p id="section-undangan" class="undangan-text">
-          Dengan penuh rasa syukur dan kebahagiaan, kami mengundang
-          Bapak/Ibu/Saudara/i untuk hadir dalam acara ulang tahun:
-        </p>
+				<p class="undangan-text md:text-xl text-sm">
+					Dengan penuh rasa syukur dan kebahagiaan, kami mengundang
+					Bapak/Ibu/Saudara/i untuk hadir dalam acara ulang tahun:
+				</p>
 
-        <div class="data-acara">
-          <p><strong>Nama:</strong> Randy Andal Bangun</p>
-          <p><strong>Hari / Tanggal:</strong> Minggu, 8 November 2026</p>
-          <p><strong>Waktu:</strong> 19.00 WITA – Selesai</p>
-          <p><strong>Tempat:</strong> Kediaman Rumah Randy</p>
-        </div>
+				<div class="data-acara md:text-xl text-sm">
+					<p><strong>Nama:</strong> Randy Andal Bangun</p>
+					<p>
+						<strong>Hari / Tanggal:</strong> Minggu, 8 November 2026
+					</p>
+					<p><strong>Waktu:</strong> 19.00 WIB – Selesai</p>
+					<p><strong>Tempat:</strong> Kediaman Rumah Randy Bangun</p>
+					<button
+						class="text-xl text-gray-800 bg-yellow-300 px-2 py-1 rounded-md md:text-2xl"
+					>
+						<a href="#alamat">Klik Aku</a>
+					</button>
+				</div>
 
-        <p class="undangan-text">
-          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Anda
-          berkenan hadir untuk memberikan doa dan restu.
-        </p>
-        <p class="penutup">Atas kehadirannya kami ucapkan terima kasih 🙏</p>
-      </div>
-    </section>
+				<p class="undangan-text md:text-xl text-sm">
+					Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+					Anda berkenan hadir untuk memberikan doa dan restu.
+				</p>
+				<p class="penutup md:text-xl text-sm">
+					Atas kehadirannya kami ucapkan terima kasih 🙏
+				</p>
+			</div>
+		</section>
 
-    <!-- Section Maps -->
-    <section class="section-alamat">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1768987062754!5m2!1sid!2sid!6m8!1m7!1s3aMQOFxkY8u0Zfe6D23wJQ!2m2!1d3.117463927674287!2d98.35775696493114!3f22.923563251957717!4f-13.237583237508119!5f0.7820865974627469"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </section>
+		<!-- Section Maps -->
+		<section id="alamat" class="section-alamat py-4">
+			<div class="alamat-box max-w-6xl">
+				<h2
+					class="md:text-5xl p-5 text-xl font-sans text-yellow-300 text-center mb-2"
+				>
+					Alamat Menyelenggarakan Pesta
+				</h2>
 
-    <script type="module" src="/src/main.js"></script>
-  </body>
+				<div
+					class="wrapper grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch justify-center h-full"
+				>
+					<!-- Map container: rounded + overflow-hidden supaya iframe tidak tembus -->
+					<div
+						class="map-container w-full h-full rounded-xl overflow-hidden bg-gray-700"
+					>
+						<iframe
+							class="alamat-map block w-full h-full min-h-[300px] z-0"
+							src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1768987062754!5m2!1sid!2sid!6m8!1m7!1s3aMQOFxkY8u0Zfe6D23wJQ!2m2!1d3.117463927674287!2d98.35775696493114!3f22.923563251957717!4f-13.237583237508119!5f0.7820865974627469"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"
+						></iframe>
+					</div>
+
+					<!-- Alamat -->
+					<div
+						class="text-alamat p-8 bg-gray-900 rounded-xl flex flex-col justify-between"
+					>
+						<div>
+							<p class="text-orange-50 text-sm md:text-xl">
+								Alamat : Dekat 4995+25F, Jl. Panglima Garamata
+								No.139, Batukarang, Kec. Payung, Kabupaten Karo,
+								Sumatera Utara 22154
+							</p>
+						</div>
+
+						<div class="mt-4">
+							<a
+								href="https://maps.app.goo.gl/1xEWMTEC6KBv3YWs6"
+								class="inline-block text-sm md:text-xl text-gray-800 bg-yellow-300 px-4 py-2 rounded-md"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Lihat di Google Maps
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script type="module" src="/src/main.js"></script>
+	</body>
 </html>
