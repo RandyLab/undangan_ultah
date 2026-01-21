@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+	margin: 0;
+	place-items: center;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+.hero {
+	min-height: 100dvh;
+	width: 100%;
+	background-image: url("/bg-hero.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.card-ucapan {
+	max-width: 80vw;
+	height: max-content;
+	background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+}
+
+.text-ucapan {
+	
+}
+
+.foto-orang {
+	width: 150px;
+	height: 150px;
+}
