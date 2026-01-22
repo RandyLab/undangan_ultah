@@ -22,7 +22,7 @@
 		<!-- Section Main -->
 		<section class="hero flex justify-center items-center flex-col">
 			<div
-				class="card-ucapan flex justify-center items-center flex-col text-center rounded-md"
+				class="card-ucapan reveal flex justify-center items-center flex-col text-center rounded-md"
 			>
 				<h1
 					class="judul-ucapan font-semibold font-serif text-4xl text-gray-100 md:text-5xl"
@@ -40,14 +40,14 @@
 					Randy Andal Bangun
 				</h2>
 				<button
-					class="text-2xl text-gray-800 bg-yellow-300 px-3 py-1 mt-5 rounded-md md:text-3xl"
+					class="text-2xl text-gray-800 bg-yellow-300 px-3 py-1 mt-5 rounded-md md:text-3xl hover:scale-125"
 				>
 					<a href="#undangan">Lihat Undangan</a>
 				</button>
 			</div>
 
 			<!-- Countdowm -->
-			<div class="counter">
+			<div class="counter reveal">
 				<div class="time-box">
 					<span id="days">0</span>
 					<small>Hari</small>
@@ -69,7 +69,7 @@
 
 		<!-- Section Undangan -->
 		<section id="undangan" class="section-undangan py-4">
-			<div class="undangan-box max-w-6xl">
+			<div class="undangan-box reveal max-w-6xl">
 				<h2 class="md:text-5xl text-xl">Undangan Spesial Untuk Anda</h2>
 
 				<p class="undangan-text md:text-xl text-sm">
@@ -84,11 +84,6 @@
 					</p>
 					<p><strong>Waktu:</strong> 19.00 WIB – Selesai</p>
 					<p><strong>Tempat:</strong> Kediaman Rumah Randy Bangun</p>
-					<button
-						class="text-xl text-gray-800 bg-yellow-300 px-2 py-1 rounded-md md:text-2xl"
-					>
-						<a href="#alamat">Klik Aku</a>
-					</button>
 				</div>
 
 				<p class="undangan-text md:text-xl text-sm">
@@ -103,7 +98,7 @@
 
 		<!-- Section Maps -->
 		<section id="alamat" class="section-alamat py-4">
-			<div class="alamat-box max-w-6xl">
+			<div class="alamat-box reveal max-w-6xl">
 				<h2
 					class="md:text-5xl p-5 text-xl font-sans text-yellow-300 text-center mb-2"
 				>
@@ -111,14 +106,14 @@
 				</h2>
 
 				<div
-					class="wrapper grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch justify-center h-full"
+					class="wrapper grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch justify-center"
 				>
-					<!-- Map container: rounded + overflow-hidden supaya iframe tidak tembus -->
+					
 					<div
-						class="map-container w-full h-full rounded-xl overflow-hidden bg-gray-700"
+						class="map-container bg-gray-700"
 					>
 						<iframe
-							class="alamat-map block w-full h-full min-h-[300px] z-0"
+							class="alamat-map block min-h-[300px] z-0 w-full"
 							src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1768987062754!5m2!1sid!2sid!6m8!1m7!1s3aMQOFxkY8u0Zfe6D23wJQ!2m2!1d3.117463927674287!2d98.35775696493114!3f22.923563251957717!4f-13.237583237508119!5f0.7820865974627469"
 							style="border: 0"
 							allowfullscreen=""
@@ -142,7 +137,7 @@
 						<div class="mt-4">
 							<a
 								href="https://maps.app.goo.gl/1xEWMTEC6KBv3YWs6"
-								class="inline-block text-sm md:text-xl text-gray-800 bg-yellow-300 px-4 py-2 rounded-md"
+								class="inline-block text-sm md:text-xl text-gray-800 bg-yellow-300 px-4 py-2 rounded-md hover:scale-125"
 								target="_blank"
 								rel="noopener noreferrer"
 							>

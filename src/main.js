@@ -23,3 +23,15 @@ function updateCountdown() {
 setInterval(updateCountdown, 1000);
 updateCountdown();
 
+
+// script transisi scroll
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      }
+    });
+  });
+  
+  const elements = document.querySelectorAll('.reveal');
+  elements.forEach((el) => observer.observe(el));

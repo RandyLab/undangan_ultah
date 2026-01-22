@@ -4,7 +4,20 @@ body {
 	margin: 0;
 	place-items: center;
 	min-height: 100vh;
+	background-color: black;
 }
+
+/* transisi scroll */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 .hero {
 	min-height: 100dvh;
@@ -76,7 +89,6 @@ body {
 
 .section-undangan,
 .section-alamat {
-	height: 100dvh;
 	width: 100%;
 	background: #0f172a; /* gelap elegan */
 	color: white;
