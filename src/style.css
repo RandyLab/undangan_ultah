@@ -1,133 +1,138 @@
 @import "tailwindcss";
 
 body {
-	margin: 0;
-	place-items: center;
-	min-height: 100vh;
-	background-color: black;
+  margin: 0;
+  place-items: center;
+  min-height: 100vh;
+  background-color: black;
 }
 
 /* transisi scroll */
-  .reveal {
-    opacity: 0;
-    transform: translateY(30px);
-    transition: all 0.8s ease-out;
-  }
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-out;
+}
 
-  .reveal.active {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 
 .hero {
-	min-height: 100dvh;
-	width: 100%;
-	background-image: url("/bg-hero.jpg");
-	background-position: center;
-	background-size: cover;
+  min-height: 100dvh;
+  width: 100%;
+  background-image: url("/bg-hero.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .card-ucapan {
-	max-width: 80vw;
-	height: max-content;
-	background: linear-gradient(
-		135deg,
-		rgba(255, 255, 255, 0.2),
-		rgba(255, 255, 255, 0.05)
-	);
-	backdrop-filter: blur(10px);
-	-webkit-backdrop-filter: blur(10px);
-	border-radius: 0.5rem;
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 2rem;
+  max-width: 80vw;
+  height: max-content;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0.05)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 2rem;
 }
 
 .judul-ucapan {
-	margin-bottom: 2rem;
-	font-family: "Birthstone", cursive;
-	font-style: normal;
+  margin-bottom: 2rem;
+  font-family: "Birthstone", cursive;
+  font-style: normal;
 }
 
 .nama-ucapan {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .foto-orang {
-	width: 150px;
-	height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .counter {
-	margin-top: 25px;
-	display: flex;
-	gap: 15px;
-	justify-content: center;
-	flex-wrap: wrap;
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .time-box {
-	background: rgba(255, 255, 255, 0.15);
-	padding: 12px 18px;
-	border-radius: 12px;
-	text-align: center;
-	min-width: 70px;
-	backdrop-filter: blur(5px);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 18px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 70px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .time-box span {
-	font-size: 28px;
-	font-weight: bold;
-	display: block;
-	color: #ffeb3b;
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+  color: #ffeb3b;
 }
 
 .time-box small {
-	font-size: 12px;
-	color: #6d7903;
+  font-size: 12px;
+  color: #6d7903;
 }
 
 .section-undangan,
-.section-alamat {
-	width: 100%;
-	background: #0f172a; /* gelap elegan */
-	color: white;
-	display: flex;
-	justify-content: center;
+.section-alamat,
+.section-rundown,
+.section-pesan {
+  width: 100%;
+  background: #0f172a; /* gelap elegan */
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.undangan-box, .alamat-box {
-	background: rgba(255, 255, 255, 0.05);
-	border-radius: 20px;
-	padding: 30px;
-	box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
-	text-align: center;
+.undangan-box,
+.alamat-box,
+.rundown-box,
+.pesan-box {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
 .undangan-box h2 {
-	margin-bottom: 20px;
-	color: #facc15;
+  margin-bottom: 20px;
+  color: #facc15;
 }
 
 .undangan-text {
-	margin: 15px 0;
-	line-height: 1.7;
+  margin: 15px 0;
+  line-height: 1.7;
 }
 
 .data-acara {
-	margin: 25px 0;
-	padding: 20px;
-	border-radius: 15px;
-	background: rgba(0, 0, 0, 0.4);
-	text-align: left;
+  margin: 25px 0;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: left;
 }
 
 .data-acara p {
-	margin: 8px 0;
+  margin: 8px 0;
 }
 
 .penutup {
-	margin-top: 25px;
-	font-weight: bold;
-	color: #facc15;
+  margin-top: 25px;
+  font-weight: bold;
+  color: #facc15;
 }

@@ -1,3 +1,5 @@
+import './style.css'
+
 const targetDate = new Date("November 8, 2026 19:00:00").getTime();
 
 function updateCountdown() {
