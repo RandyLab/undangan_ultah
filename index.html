@@ -25,29 +25,29 @@
 				class="card-ucapan reveal flex justify-center items-center flex-col text-center rounded-md"
 			>
 				<h1
-					class="judul-ucapan font-semibold font-serif text-4xl text-gray-100 md:text-5xl"
+					class="judul-ucapan font-semibold font-serif text-4xl text-gray-100 md:text-5xl text-shadow"
 				>
 					Selamat Ulang Tahun
 				</h1>
 				<img
 					src="/orang.jpg"
 					alt="Randy"
-					class="foto-orang rounded-full border-gray-100"
+					class="foto-orang rounded-full shadow-lg shadow-gray-950"
 				/>
 				<h2
-					class="nama-ucapan font-semibold text-2xl text-gray-200 md:text-3xl"
+					class="nama-ucapan font-semibold text-2xl text-gray-200 md:text-3xl text-shadow"
 				>
 					Randy Andal Bangun
 				</h2>
 				<button
-					class="text-2xl text-gray-800 bg-yellow-300 px-3 py-1 mt-5 rounded-md md:text-3xl hover:scale-110 hover:bg-yellow-200"
+					class="text-2xl text-gray-800 bg-yellow-300 px-3 py-1 mt-5 rounded-md md:text-3xl hover:scale-110 hover:bg-yellow-200 shadow-lg md:shadow-sm shadow-yellow-950"
 				>
 					<a href="#undangan">Lihat Undangan</a>
 				</button>
 			</div>
 
 			<!-- Countdowm -->
-			<div class="counter reveal">
+			<div class="counter reveal text-shadow">
 				<div class="time-box">
 					<span id="days">0</span>
 					<small>Hari</small>
@@ -73,7 +73,7 @@
 				id="undangan"
 				class="undangan-box reveal max-w-6xl md:px-8 h-screen flex flex-col justify-center items-center"
 			>
-				<h2 class="md:text-5xl text-3xl">
+				<h2 class="md:text-5xl text-3xl text-shadow">
 					Undangan Spesial Untuk Anda
 				</h2>
 
@@ -97,24 +97,29 @@
 					Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
 					Anda berkenan hadir untuk memberikan doa dan restu.
 				</p>
-				<p class="penutup md:text-xl text-sm">
+				<p class="penutup md:text-xl text-sm text-shadow">
 					Atas kehadirannya kami ucapkan terima kasih 🙏
 				</p>
 			</div>
 		</section>
 
 		<!-- Section Rundown Acara -->
-		<section class="section-rundown snap-start">
+		<section class="section-rundown snap-start py-4">
 			<div
 				class="rundown-box reveal max-w-6xl text-white bg-gray-700 w-full h-screen flex flex-col md:flex-row justify-evenly items-center"
 			>
-				<h2 class="text-amber-300 mb-4 font-bold text-5xl w-full">
+				<h2
+					class="text-amber-300 mb-4 font-bold text-5xl w-fit text-shadow"
+				>
 					Rundown Acara
 				</h2>
 				<div
-					class="p-8 bg-slate-900 rounded-lg shadow-lg shadow-slate-950"
+					class="p-8 data-acara md:text-xl md:w-full text-sm shadow-lg shadow-slate-950"
 				>
-					<table border="0" class="w-full text-left text-sm">
+					<table
+						border="0"
+						class="w-full text-left text-sm text-shadow"
+					>
 						<tr>
 							<td>Pembagian souvenir kecil</td>
 							<td class="whitespace-nowrap">19.00 - 19.30</td>
@@ -159,10 +164,10 @@
 					class="wrapper grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch justify-center h-full"
 				>
 					<div
-						class="map-container bg-gray-700 h-full p-2 shadow-lg shadow-slate-950 rounded-lg"
+						class="map-container data-acara shadow-lg shadow-slate-950"
 					>
 						<iframe
-							class="alamat-map block z-0 w-full h-full"
+							class="alamat-map block z-0 w-full h-full rounded-lg"
 							src="https://www.google.com/maps/embed?pb=!3m2!1sid!2sid!4v1768987062754!5m2!1sid!2sid!6m8!1m7!1s3aMQOFxkY8u0Zfe6D23wJQ!2m2!1d3.117463927674287!2d98.35775696493114!3f22.923563251957717!4f-13.237583237508119!5f0.7820865974627469"
 							style="border: 0"
 							allowfullscreen=""
@@ -173,7 +178,7 @@
 
 					<!-- Alamat -->
 					<div
-						class="text-alamat p-8 bg-gray-900 rounded-xl flex flex-col justify-between shadow-lg shadow-slate-950"
+						class="text-alamat p-8 data-acara flex flex-col justify-between shadow-lg shadow-slate-950"
 					>
 						<h2
 							class="md:text-4xl p-5 text-3xl font-sans text-yellow-300 text-center mb-2"
@@ -203,17 +208,19 @@
 		<!-- Section Pesan dan Doa -->
 		<section
 			id="section-pesan"
-			class="h-screen py-4 snap-start bg-slate-950"
+			class="section-pesan h-screen py-4 snap-start bg-slate-950"
 		>
 			<div
 				class="pesan-box reveal max-w-6xl p-8 h-full max-h-screen flex flex-col"
 			>
-				<h2 class="text-amber-300 font-bold md:text-5xl text-3xl">
+				<h2
+					class="text-amber-300 font-bold md:text-5xl text-3xl text-shadow"
+				>
 					Pesan dan Doa
 				</h2>
 				<div
 					id="pesan-container"
-					class="pesan-container flex flex-col gap-2 h-full bg-slate-800 overflow-scroll w-full rounded-lg my-4 p-4 shadow-lg shadow-slate-950"
+					class="pesan-container flex flex-col gap-2 h-full data-acara overflow-scroll w-full rounded-lg my-4 p-4 shadow-lg shadow-slate-950"
 				>
 					<div class="pesan-buble">
 						<p class="nama-pesan">Raja</p>
@@ -222,12 +229,12 @@
 						</p>
 					</div>
 				</div>
-				<p class="text-amber-100">
+				<p class="text-blue-100 text-shadow text-lg">
 					Kirimkan pesan dan doa untuk orang yang berulang tahun
 				</p>
 				<form
 					id="formPesan"
-					class="w-full bg-slate-800 p-4 rounded-lg my-4 mx-2 shadow-lg shadow-slate-950"
+					class="w-full data-acara p-4 rounded-lg my-4 mx-2 shadow-lg shadow-slate-950"
 				>
 					<label for="nama" class="text-left w-full text-slate-100"
 						>Nama :</label

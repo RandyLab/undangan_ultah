@@ -19,12 +19,39 @@ body {
 	transform: translateY(0);
 }
 
+.text-shadow {
+	text-shadow: 1.5px 1.5px 5px rgba(0, 0, 0, 0.45);
+}
+
+.hero,
+.section-undangan,
+.section-rundown,
+.section-alamat,
+.section-pesan {
+	background-position: center;
+	background-size: cover;
+}
+
 .hero {
 	min-height: 100dvh;
 	width: 100%;
 	background-image: url("/bg-hero.jpg");
-	background-position: center;
-	background-size: cover;
+}
+
+.section-undangan {
+	background-image: url("/bg-undangan.jpg");
+}
+
+.section-rundown {
+	background-image: url("/bg-rundown.jpg");
+}
+
+.section-alamat {
+	background-image: url("/bg-alamat.jpg");
+}
+
+.section-pesan {
+	background-image: url("/bg-pesan.jpg");
 }
 
 .card-ucapan {
@@ -92,7 +119,6 @@ body {
 .section-rundown,
 .section-pesan {
 	width: 100%;
-	background: #0f172a; /* gelap elegan */
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -107,6 +133,7 @@ body {
 	padding: 30px;
 	box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
 	text-align: center;
+	backdrop-filter: blur(1.5px);
 }
 
 .undangan-box h2 {
