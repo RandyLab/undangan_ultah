@@ -35,23 +35,23 @@ body {
 .hero {
 	min-height: 100dvh;
 	width: 100%;
-	background-image: url("/bg-hero.jpg");
+	background-image: url("/src/background/bg-hero.webp");
 }
 
 .section-undangan {
-	background-image: url("/bg-undangan.jpg");
+	background-image: url("/src/background/bg-undangan.webp");
 }
 
 .section-rundown {
-	background-image: url("/bg-rundown.jpg");
+	background-image: url("/src/background/bg-rundown.webp");
 }
 
 .section-alamat {
-	background-image: url("/bg-alamat.jpg");
+	background-image: url("/src/background/bg-alamat.webp");
 }
 
 .section-pesan {
-	background-image: url("/bg-pesan.jpg");
+	background-image: url("/src/background/bg-pesan.webp");
 }
 
 .card-ucapan {
